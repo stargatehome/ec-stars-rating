@@ -395,11 +395,11 @@ function ec_stars_rating() {
 	</div>
 	<?php if(get_option('ec_stars_rating_show_votes')): ?>
 		<div class="ec-stars-value">
-			<?php // if($microformats): ?>
+			<?php if($microformats): ?>
 			<span<?php if($microformats){ echo ' class="item"'; }else{ echo ' itemprop="itemReviewed" itemtype="http://schema.org/Product" itemscope';} ?>>
 				<a href="<?php the_permalink() ?>" <?php if($microformats) {echo ' class="fn url"';} else {echo ' itemprop="name url"';} ?>><?php the_title() ?></a>,
 			</span>
-			<?php // endif; ?>
+			<?php endif; ?>
 			<span <?php echo 'class="ec-stars-rating-value'; if($microformats) {echo ' rating"';} else { echo '" itemprop="ratingValue"'; }?>><?php
 				echo is_int($result) ? $result : number_format($result, 2);
 			?></span> / <span>5</span> (<span<?php echo ' class="ec-stars-rating-count'; if ($microformats) echo ' votes"'; else echo '" itemprop="ratingCount"'; ?>><?php echo $votes ?></span> <?php echo __('votos') ?>)

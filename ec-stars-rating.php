@@ -250,8 +250,7 @@ class ECStarsRating {
 				`voter_ip` VARCHAR(15) NOT NULL,
 				`post_id` BIGINT(20) UNSIGNED NOT NULL,
 				KEY `post_id`(`post_id`),
-				KEY `voter_ip`(`voter_ip`)
-				);";
+				KEY `voter_ip`(`voter_ip`));";
 		
 		$wpdb->query($sql);
 	}

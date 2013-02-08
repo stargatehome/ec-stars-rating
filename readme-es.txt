@@ -44,3 +44,9 @@ Primera versión estable, con algunos errores de formato de los números arregla
 
 = 1.0 =
 Si usas una versión antigua, actualiza lo más pronto posible
+
+== Cómo funciona ==
+
+Básicamente creamos una nueva tabla llamada `(prefijo)ec_stars_votes`, donde guardamos los votos de la gente (para prevenir votos duplicados).
+
+El número de votos y la suma de todos los votos son guardados en la tabla `(prefijo)options` en forma de campos meta personalizados: Uno para el número de votos, otro para la suma de todos los valores de los votos. Ambos se actualizan cuando alguien vota.

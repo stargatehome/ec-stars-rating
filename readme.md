@@ -29,3 +29,9 @@ Actually, microdata is recommended by Google, but with microformats google detec
 
 ### 1.0 ###
 Initial stable release, with some number format fixes.
+
+## How it works ##
+
+Basically we create a new table called `(prefix)ec_stars_votes`, where we store the votes of the people (to prevent duplicate votes).
+
+The number of votes and the sum of the total votes are stored in the `(prefix)options` table in form of custom meta fields, one for the count, and another for the sum. Both fields get updated when someone votes.

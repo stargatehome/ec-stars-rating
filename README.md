@@ -5,6 +5,6 @@
 
 ```php
 <?php if(function_exists('ec_stars_rating')) {
-	ec_stars_rating();
+		ec_stars_rating();
 } ?>
 ```

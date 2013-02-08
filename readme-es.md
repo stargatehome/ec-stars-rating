@@ -10,7 +10,7 @@ Un plugin de calificación por estrellas para WordPress **super rápido**, optim
 
 1. Sube el contenido del zip al directorio `/wp-content/plugins/`
 2. Activa el plugin desde el menú 'Plugins' en WordPress
-3. Configura el plugin según tus necesidades. Si necesitas ayuda o información extra sobre la configuración puedes visitar [http://emiliocobos.net/ec-stars-rating-wordpress-plugin/](la página del plugin)
+3. Configura el plugin según tus necesidades. Si necesitas ayuda o información extra sobre la configuración puedes visitar [la página del plugin](http://emiliocobos.net/ec-stars-rating-wordpress-plugin/)
 4. Pon la siguiente línea de código donde quieras que aparezcan las estrellas en tu tema (normalmente en `single.php`, `content-single.php` o `index.php`):
 
 ```php
@@ -23,7 +23,7 @@ Un plugin de calificación por estrellas para WordPress **super rápido**, optim
 
 ### ¿Qué formato de marcado debería de usar? ###
 
-Actualmente, microdata es el recomendado por Google, pero con microformats Google detecta las estrellas y las usa en tus búsquedas ([https://www.google.com/search?q=site:emiliocobos.net+ec+stars+rating](ejemplo)).
+Actualmente, microdata es el recomendado por Google, pero con microformats Google detecta las estrellas y las usa en tus búsquedas ([ejemplo](https://www.google.com/search?q=site:emiliocobos.net+ec+stars+rating)).
 
 ## Screenshots ##
 

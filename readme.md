@@ -10,7 +10,7 @@ A **super fast** **WordPress star rating plugin**, optimized for SEO, and with a
 
 1. Upload the content of the zip package to `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Configure the plugin according to your needs. If you need help you can visit [http://emiliocobos.net/ec-stars-rating-wordpress-plugin/](the plugin page)
+3. Configure the plugin according to your needs. If you need help you can visit [the plugin page](http://emiliocobos.net/ec-stars-rating-wordpress-plugin/)
 4. Place the following snippet where you want the stars to appear (normally `single.php`, `content-single.php` or `index.php`):
 
 ```
@@ -23,7 +23,7 @@ A **super fast** **WordPress star rating plugin**, optimized for SEO, and with a
 
 ### What rich snippets format should I use, microdata or microformats? ###
 
-Actually, microdata is recommended by Google, but with microformats google detects the stars and uses them in your searches ([https://www.google.com/search?q=site:emiliocobos.net+ec+stars+rating](example)).
+Actually, microdata is recommended by Google, but with microformats google detects the stars and uses them in your searches ([example](https://www.google.com/search?q=site:emiliocobos.net+ec+stars+rating)).
 
 ## Changelog ##
 
